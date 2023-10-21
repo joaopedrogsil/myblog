@@ -22,19 +22,18 @@ nav {
     position: relative;
     padding: 25px;
     height: 70px;
-    width: 1226px;
+    width: 1349px;
     box-sizing: border-box;
     text-align:justify;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
-    
 }
 
 nav li {
     display: inline;
     position: relative;
-    padding: 20px 30px;
+    padding: 20px 60px;
     top: 20px;
-    left: 150px;
+    left: 390px;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -63,25 +62,22 @@ main {
 }
 
 .fp {
-    width: 500px;
-    height: 500px;
     position: relative;
-    top: 50px;
-    left: 350px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
-    filter: brightness(0.7) contrast(1.4) saturate(0.9);
+    filter: brightness(0.8) contrast(1.2) saturate(0.9);
+    width: 500px;
+    left: 400px;
 }
-
+    
 .linha-de-divisao {
     border: 1px solid #000;
     margin: 20px 0;
 }
 
-.about-me {
+.how_is_me {
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);    
 }
-
 
 div h1 {
     font-size: 50px;
@@ -106,6 +102,7 @@ div ol {
 
 .projetos {
     text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 #sobre-o-video {
@@ -121,6 +118,7 @@ div ol {
 
 .empresa {
     text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .empresa h1 {
@@ -139,6 +137,31 @@ div ol {
     height: 80px;
     width: 230px;
     padding: 40px 0 150px 0;
+}
+
+.musicas {
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.musicas p {
+    font-size: 27px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 100px;
+    padding: 30px 0;
+}
+
+.musicas h3 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.musicas img {
+    width: 50px;
+    padding: 0 10px;
+    display:inline-block;
 }
 
 .contato {
@@ -162,23 +185,11 @@ div ol {
     color: rgb(9, 161, 9);
 }
 
-.whatsapp-business:hover {
-    color: rgb(9, 161, 9);
-}
-
-.instagram {
-   color: rgb(231, 165, 43);
-}
-
-.instagram:hover {
-    color: rgb(177, 119, 13);
-}
-
-.email {
+.gmail {
     color: red;
 }
 
-.email:hover {
+.gmaill:hover {
     color: rgb(165, 8, 8);
 }
 
@@ -186,14 +197,14 @@ footer {
     background: #353535;
     text-align: center;
     padding: 10px 0;
-    height: 180px;
+    height: 120px;
     box-shadow:  0px -5px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer h2 {
     position: relative;
     top: 25px;
-    padding: 30px 10px;
+    padding: 10px 10px;
     font-size: 20px;
 }
 
@@ -227,7 +238,9 @@ footer img:hover {
     }
 
     nav li {
-        left: 40px;
+        font-size: 60px;
+        padding: 20px 20px;
+        left: 270px;
     }
 
     .fp {
@@ -238,27 +251,41 @@ footer img:hover {
         width: 940px;
     }
 
-    .about-me {
+    .how_is_me {
         text-align: center;
     }
     
     div h1 {
-        font-size: 40px;
+        font-size: 50px;
+        padding: 0 25px;
     }
-
-    div p {
-        font-size: 20px;
+    
+    div #p {
+        font-size: 30px;
         margin: 0 100px;
         padding: 10px 10px;
     }
 
     div ol {
-        font-size: 20px;
-        margin: 0 100px;
+        font-size: 25px;
+        margin: 0 200px;
     }
 
     footer {
         width: 940px;
+    }
+    footer h2 {
+        position: relative;
+        top: 10px;
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+    footer img {
+        position: relative;
+        top: 20px;
+        height: 50px;
+        width: 50px;
     }
 
 }
