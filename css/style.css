@@ -278,6 +278,10 @@ footer img:hover {
     margin: 0 200px;
   }
 
+  .projetos h2 {
+    font-size: 20px;
+  }
+
   footer {
     width: 940px;
   }
