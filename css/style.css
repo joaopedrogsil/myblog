@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -61,12 +65,19 @@ main {
   font-family: "Aguafina Script", cursive;
 }
 
+.container {
+  position: relative;
+  display: flex;
+}
+
 .fp {
   position: relative;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
   filter: brightness(0.8) contrast(1.2) saturate(0.9);
   width: 500px;
-  left: 400px;
+  height: 400px;
+  top: 20px;
+  left: 30px;
 }
 
 .linha-de-divisao {
@@ -74,17 +85,12 @@ main {
   margin: 20px 0;
 }
 
-.how_is_me {
+#how_is_me {
   text-align: center;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-div h1 {
-  font-size: 50px;
-}
-
-div #p {
-  font-size: 20px;
+span #qse {
   box-sizing: border-box;
   border: 2px solid black;
   border-radius: 20px;
@@ -92,15 +98,34 @@ div #p {
   padding: 20px 40px;
 }
 
-div ol {
-  font-size: 20px;
+div h1 {
+  font-size: 50px;
+}
+
+#p {
+  font-size: 25px;
   box-sizing: border-box;
   border: 2px solid black;
   border-radius: 20px;
-  margin: 0 340px;
+  margin: 0 50px;
+  padding: 20px 40px;
 }
 
-.projetos {
+.myf * {
+  text-align: center;
+}
+
+.myf #my {
+  font-size: 30px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 0 300px;
+  padding: 20px 10px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#projetos {
   text-align: center;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -116,10 +141,6 @@ div ol {
   padding-bottom: 20px;
   font-size: 20px;
   text-decoration: underline;
-}
-
-.video1 {
-  padding-bottom: 100px;
 }
 
 .empresa {
@@ -251,7 +272,8 @@ footer img:hover {
   }
 
   .fp {
-    left: 200px;
+    left: 20px;
+    top: 150px;
   }
 
   main {
@@ -271,6 +293,15 @@ footer img:hover {
     font-size: 30px;
     margin: 0 100px;
     padding: 10px 10px;
+  }
+
+  .myf * {
+    text-align: center;
+  }
+
+  .myf #my {
+    font-size: 35px;
+    margin: 20px;
   }
 
   div ol {
@@ -299,3 +330,5 @@ footer img:hover {
     width: 50px;
   }
 }
+
+/*EU TE AMO STHEFANY, VOLTA PARA MIM POR FAVOR, EU AINDA TE AMO, EU AINDA QUERO VOLTAR COM VOCÊ!!!!*/
