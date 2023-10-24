@@ -68,11 +68,28 @@ main {
   text-decoration: underline;
 }
 
+.tra_escola {
+  display: inline-flex;
+  padding: 20px 30px;
+}
+
 #sobre-o-video {
   padding-top: 100px;
   padding-bottom: 20px;
   font-size: 20px;
   text-decoration: underline;
+}
+
+.v1 {
+  padding: 20px 30px;
+  flex: 1;
+  margin: 0 50px;
+}
+
+.v2 {
+  padding: 20px 30px;
+  flex: 1;
+  margin: 0 50px;
 }
 
 footer {
@@ -107,13 +124,6 @@ footer img:hover {
     height: 110px;
   }
 
-  .foto {
-    width: 50px;
-    height: 50px;
-    left: 400px;
-    top: 10px;
-  }
-
   nav {
     width: 940px;
     height: 110px;
@@ -129,46 +139,29 @@ footer img:hover {
     left: 270px;
   }
 
-  .fp {
-    left: 20px;
-    top: 150px;
-  }
-
   main {
     width: 940px;
   }
 
-  .how_is_me {
-    text-align: center;
+  .tra_escola {
+    display: contents;
+    padding: 0 0;
   }
 
-  div h1 {
-    font-size: 50px;
-    padding: 0 25px;
+  .v1 {
+    padding: 0 0;
+    flex: 0;
+    margin: 0 0;
+    width: 260px;
+    height: 100px;
   }
 
-  div #p {
-    font-size: 30px;
-    margin: 0 100px;
-    padding: 10px 10px;
-  }
-
-  .myf * {
-    text-align: center;
-  }
-
-  .myf #my {
-    font-size: 35px;
-    margin: 20px;
-  }
-
-  div ol {
-    font-size: 25px;
-    margin: 0 200px;
-  }
-
-  .projetos h2 {
-    font-size: 35px;
+  .v2 {
+    padding: 0 0;
+    flex: 0;
+    margin: 0 0;
+    width: 260px;
+    height: 100px;
   }
 
   footer {
