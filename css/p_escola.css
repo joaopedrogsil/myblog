@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #343534be;
+  padding: 10px 0;
+  height: 70px;
+}
+
+.menu {
+  position: absolute;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: relative;
+  padding: 25px;
+  height: 70px;
+  width: 1349px;
+  box-sizing: border-box;
+  text-align: justify;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav h2 {
+  display: inline;
+  position: relative;
+  padding: 20px 60px;
+  top: 20px;
+  left: 10px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  text-transform: uppercase;
+  color: rgb(48, 33, 33);
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(0, 0, 0);
+}
+
+main {
+  background: linear-gradient(to bottom, #686868, #353535);
+  font-family: "Lato", sans-serif;
+  flex: 10;
+}
+
+.escola {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#sobre-o-video {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+footer {
+  background: #353535;
+  text-align: center;
+  padding: 10px 0;
+  height: 150px;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer h2 {
+  position: relative;
+  top: 25px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+footer img {
+  position: relative;
+  padding: 50px 0 25px 0;
+  height: 30px;
+  width: 30px;
+}
+
+footer img:hover {
+  transform: scale(0.8);
+}
+
+@media screen and (max-width: 940px) {
+  header {
+    width: 940px;
+    height: 110px;
+  }
+
+  .foto {
+    width: 50px;
+    height: 50px;
+    left: 400px;
+    top: 10px;
+  }
+
+  nav {
+    width: 940px;
+    height: 110px;
+  }
+
+  nav li {
+    font-size: 60px;
+    padding: 20px 20px;
+    left: 270px;
+  }
+
+  .fp {
+    left: 20px;
+    top: 150px;
+  }
+
+  main {
+    width: 940px;
+  }
+
+  .how_is_me {
+    text-align: center;
+  }
+
+  div h1 {
+    font-size: 50px;
+    padding: 0 25px;
+  }
+
+  div #p {
+    font-size: 30px;
+    margin: 0 100px;
+    padding: 10px 10px;
+  }
+
+  .myf * {
+    text-align: center;
+  }
+
+  .myf #my {
+    font-size: 35px;
+    margin: 20px;
+  }
+
+  div ol {
+    font-size: 25px;
+    margin: 0 200px;
+  }
+
+  .projetos h2 {
+    font-size: 35px;
+  }
+
+  footer {
+    width: 940px;
+  }
+  footer h2 {
+    position: relative;
+    top: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+
+  footer img {
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+  }
+}
